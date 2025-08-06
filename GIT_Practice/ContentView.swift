@@ -12,6 +12,8 @@ struct ContentView: View {
         VStack {
             Text("Change 1!")
             Image("Penguin")
+                .aspectRatio(contentMode: .fit)
+            Text("Change 3!")
 
             
         }
