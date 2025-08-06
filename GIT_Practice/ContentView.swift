@@ -11,6 +11,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Change 1!")
+            Image("Penguin")
+
             
         }
         .padding()
